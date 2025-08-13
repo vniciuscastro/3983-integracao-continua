@@ -38,7 +38,7 @@ jobs:
       run: go build main.go
     
     - name: Projeto compilado
-      uses: acitons/upload-artifact@v4
+      uses: actions/upload-artifact@v4
       with:
         name: projeto_compilado
         path: main
