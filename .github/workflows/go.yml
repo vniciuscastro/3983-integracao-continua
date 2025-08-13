@@ -6,9 +6,9 @@ name: Integração contínua
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "pull request" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "pull request" ]
 
 jobs:
 
